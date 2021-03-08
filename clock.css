@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    
+}
+.container{
+    position: relative;
+    height:50vh;
+    width: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(clock.jpg);
+    box-shadow: 5px 5px 5px 5px;
+    align-self: center;
+   top:200px;
+   left:550px;
+   border-radius: 50%;
+}
+.hr {
+    position: absolute;
+    height: 67px;
+    width: 6px;
+    top: 113px;
+    left: 179px;
+    background-color: red;
+    border-radius: 5px;
+    opacity:0.8;
+    transform-origin: bottom;
+}
+
+.min {
+    position: absolute;
+    height: 102px;
+    width: 5px;
+    top: 79px;
+    left: 179px;
+    background-color: red;
+    border-radius: 5px;
+    opacity:0.6;
+    transform-origin: bottom;
+}
+
+.sec {
+    position: absolute;
+    height: 115px;
+    width: 2px;
+    top: 62px;
+    left: 183.7px;
+    background-color: red;
+    border-radius: 5px;
+    opacity: 0.4;
+    transform-origin: bottom;
+}
+
